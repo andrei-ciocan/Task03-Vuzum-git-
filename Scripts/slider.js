@@ -1,4 +1,7 @@
 'use strict';
+
+$(document).ready(function (){
+
 function Slider() {
    
     this.animationSpeed=1000;
@@ -20,11 +23,11 @@ Slider.prototype.startSlider = function startSlider() {
      //this.next();
     this.$next.click(function(){
         this.next();
-    })
+    }.bind(this))
 
     this.$previous.click(function(){
         this.previous();
-    })
+    }.bind(this))
 }
 
 Slider.prototype.next = function next() {
@@ -70,4 +73,6 @@ Slider.prototype.slideTransitionRight = function slideTransitionRight(callback) 
 
 $(function(){
     new Slider();
+});
+
 });
