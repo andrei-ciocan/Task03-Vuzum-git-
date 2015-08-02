@@ -1,115 +1,127 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="Styles/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="Styles/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/additional-methods.js"></script>
+  <script src="Scripts/slider.js"></script>
+  <script src="Scripts/form.validation.js"></script>
 </head>
 <body>
-<header>
-	<div class="header-menu">
-	<div class="content-width">
-	<div class="header-menu_logo">SINGOLO<span>*</span></div>
+  <header>
+   <div class="header-menu">
+     <div class="content-width">
+       <div class="header-menu_logo">SINGOLO<span>*</span></div>
 
-	<div class="header-menu_container">
-		<ul>
-		<li><a href="#">HOME</a></li>
-		<li>&bull;</li>
-		<li><a href="#">SERVICES</a></li>
-		<li>&bull;</li>
-		<li><a href="#">PORTFOLIO</a></li>
-		<li>&bull;</li>
-		<li><a href="#">ABOUT</a></li>
-		<li>&bull;</li>
-		<li><a href="#">CONTACT</a></li>
-		</ul>
-	</div>
-	</div>
-	</div>
+       <div class="header-menu_container">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li>&bull;</li>
+          <li><a href="#">SERVICES</a></li>
+          <li>&bull;</li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li>&bull;</li>
+          <li><a href="#">ABOUT</a></li>
+          <li>&bull;</li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </header>
-<div class="slider">
-<div class="content-width">
-<img class="slider_iphone-vertical" src="Images/iPhone Vertical.png">
-<img class="slider_iphone-horizontal" src="Images/iPhone Horizontal.png">
-</div>
-<img class="slider_arrow-left" src="Images/chev.png">
-<img class="slider_arrow-right" src="Images/chev.png">
+
+
+
+<div class="slider-container">
+	<div class="slider">
+		<ul class="slides">
+      <div class="img-container"><li class ="slide"><img class="slider_iphone-vertical" src="Images/iPhone Vertical.png"><img class="slider_iphone-horizontal" src="Images/iPhone Horizontal.png"></li></div>
+      <div class="img-container"><li class ="slide"><img class="slider_iphone-vertical" src="Images/iPhone Vertical.png"><img class="slider_iphone-horizontal" src="Images/iPhone Horizontal.png"></li></div>
+      <div class="img-container"><li class ="slide"><img class="slider_iphone-vertical" src="Images/iPhone Vertical.png"><img class="slider_iphone-horizontal" src="Images/iPhone Horizontal.png"></li></div>
+      <div class="img-container"><li class ="slide"><img class="slider_iphone-vertical" src="Images/iPhone Vertical.png"><img class="slider_iphone-horizontal" src="Images/iPhone Horizontal.png"></li></div>
+      <div class="img-container"><li class ="slide"><img class="slider_iphone-vertical" src="Images/iPhone Vertical.png"><img class="slider_iphone-horizontal" src="Images/iPhone Horizontal.png"></li></div>
+    </ul>
+  </div>
+  <img class="slider_arrow-left" src="Images/chev.png">
+  <img class="slider_arrow-right" src="Images/chev.png">	
 </div>
 
 
 <div class="services">
-<div class="content-width">
-<h1>Our Services</h1>
-<p class="services_description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-<div class="services_links">
-	<div class="services_link">
-		<div class="services_image">
-		<img src="Images/Ellipse.png">
-		<img class="services_icon services_pen"src="Images/pen.png">
-		</div>
+  <div class="content-width">
+    <h1>Our Services</h1>
+    <p class="services_description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+    <div class="services_links">
+     <div class="services_link">
+      <div class="services_image">
+        <img src="Images/Ellipse.png">
+        <img class="services_icon services_pen"src="Images/pen.png">
+      </div>
 
-		<div class="services_textbox">
-		<h2> Custom Design</h2>
-		<p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-		</div>
-	</div>
-	<div class="services_link">
-		<div class="services_image">
-		<img src="Images/Ellipse.png">
-		<img class="services_icon services_bulb"src="Images/bulb.png">
-		</div>
+      <div class="services_textbox">
+        <h2> Custom Design</h2>
+        <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+      </div>
+    </div>
+    <div class="services_link">
+      <div class="services_image">
+        <img src="Images/Ellipse.png">
+        <img class="services_icon services_bulb"src="Images/bulb.png">
+      </div>
 
-		<div class="services_textbox">
-		<h2> Inovative Ideas</h2>
-		<p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-		</div>
-	</div>
-	<div class="services_link">
-		<div class="services_image">
-		<img src="Images/Ellipse.png">
-		<img class="services_icon services_heart"src="Images/heart.png">
-		</div>
+      <div class="services_textbox">
+        <h2> Inovative Ideas</h2>
+        <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+      </div>
+    </div>
+    <div class="services_link">
+      <div class="services_image">
+        <img src="Images/Ellipse.png">
+        <img class="services_icon services_heart"src="Images/heart.png">
+      </div>
 
-		<div class="services_textbox">
-		<h2> Love Is The Answer</h2>
-		<p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-		</div>
-	</div>
+      <div class="services_textbox">
+        <h2> Love Is The Answer</h2>
+        <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+      </div>
+    </div>
 
-	<div class="services_link">
-		<div class="services_image">
-		<img src="Images/Ellipse.png">
-		<img class="services_icon services_phone"src="Images/phone.png">
-		</div>
+    <div class="services_link">
+      <div class="services_image">
+        <img src="Images/Ellipse.png">
+        <img class="services_icon services_phone"src="Images/phone.png">
+      </div>
 
-		<div class="services_textbox">
-		<h2> Responsive Layout</h2>
-		<p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
-		</div>
-	</div>
-	<div class="services_link">
-		<div class="services_image">
-		<img src="Images/Ellipse.png">
-		<img class="services_icon services_bubble"src="Images/bubble.png">
-		</div>
+      <div class="services_textbox">
+        <h2> Responsive Layout</h2>
+        <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+      </div>
+    </div>
+    <div class="services_link">
+      <div class="services_image">
+        <img src="Images/Ellipse.png">
+        <img class="services_icon services_bubble"src="Images/bubble.png">
+      </div>
 
-		<div class="services_textbox">
-		<h2> 24 / 7 Support</h2>
-		<p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
-		</div>
-	</div>
-	<div class="services_link">
-		<div class="services_image">
-		<img src="Images/Ellipse.png">
-		<img class="services_icon services_star"src="Images/star.png">
-		</div>
+      <div class="services_textbox">
+        <h2> 24 / 7 Support</h2>
+        <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+      </div>
+    </div>
+    <div class="services_link">
+      <div class="services_image">
+        <img src="Images/Ellipse.png">
+        <img class="services_icon services_star"src="Images/star.png">
+      </div>
 
-		<div class="services_textbox">
-		<h2> Feel Like A Star</h2>
-		<p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
-		</div>
-	</div>
-</div>
+      <div class="services_textbox">
+        <h2> Feel Like A Star</h2>
+        <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
 
@@ -126,24 +138,24 @@
         <div class="all">All</div><!-- 
      --><div class="web">Web Design</div><!-- 
      --><div class="graphic">Graphic Design</div><!-- 
-     --><div class="artwork">Artwork</div>
-      </div>
-      <div class="portofolio_gallery">
-        <div class="project-web"><img src="Images/proj1.png" alt=""></div>
-        <div class="project-graphic"><img src="Images/proj2.png" alt=""></div>
-        <div class="project-artwork"><img src="Images/proj3.png" alt=""></div>
-        <div class="project-web"><img src="Images/proj4.png" alt=""></div>
-        <div class="project-graphic"><img src="Images/proj5.png" alt=""></div>
-        <div class="project-artwork"><img src="Images/proj6.png" alt=""></div>
-        <div class="project-web"><img src="Images/proj7.png" alt=""></div>
-        <div class="project-graphic"><img src="Images/proj8.png" alt=""></div>
-        <div class="project-artwork"><img src="Images/proj9.png" alt=""></div>
-        <div class="project-web"><img src="Images/poj10.png" alt=""></div>
-        <div class="project-graphic"><img src="Images/proj11.png" alt=""></div>
-        <div class="project-artwork"><img src="Images/proj12.png" alt=""></div>
-      </div>
-    </div>
-  </div>
+   --><div class="artwork">Artwork</div>
+ </div>
+ <div class="portofolio_gallery">
+  <div class="project-web"><img src="Images/proj1.png" alt=""></div>
+  <div class="project-graphic"><img src="Images/proj2.png" alt=""></div>
+  <div class="project-artwork"><img src="Images/proj3.png" alt=""></div>
+  <div class="project-web"><img src="Images/proj4.png" alt=""></div>
+  <div class="project-graphic"><img src="Images/proj5.png" alt=""></div>
+  <div class="project-artwork"><img src="Images/proj6.png" alt=""></div>
+  <div class="project-web"><img src="Images/proj7.png" alt=""></div>
+  <div class="project-graphic"><img src="Images/proj8.png" alt=""></div>
+  <div class="project-artwork"><img src="Images/proj9.png" alt=""></div>
+  <div class="project-web"><img src="Images/poj10.png" alt=""></div>
+  <div class="project-graphic"><img src="Images/proj11.png" alt=""></div>
+  <div class="project-artwork"><img src="Images/proj12.png" alt=""></div>
+</div>
+</div>
+</div>
 </div>
 <!-- @ABOUT US -->
 <div class="about">
@@ -190,45 +202,46 @@
 
 
 <div class="get-a-quote">
-<div class="content-width">
-<h1>Get a Quote</h1>
-<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-<form action="" method="get">
-  <input type="text" name="name" placeholder="Name (Required)"><br>
-  <input type="text" name="email" placeholder="Email (Required)"><br>
-  <input type="text" name="subject" placeholder="Subject"><br>
-  <textarea name="project-description" placeholder="Describe your project in detail..."></textarea><br>
-  <input type="submit" value="Submit">
-</form>
-<div class="get-a-quote_contact-information">
-  <h2>Contact Information</h2>
-  <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
-  <br><br>
-  <img class="get-a-quote_location-icon" src="Images/location.png">   Elm St. 14/05 Lost City <br>
-  <img class="get-a-quote_phone-icon" src="Images/telephone.png">   03528 331 86 35 <br>
-  <img class="get-a-quote_mail-icon" src="Images/mail.png">   info@singolo.com
-  </p>
+  <div class="content-width">
+    <h1>Get a Quote</h1>
+    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+    <form class="signupForm" action="" method="get">
+      <input type="text" name="name" placeholder="Name (Required)"><br>
+      <input type="email" name="email" placeholder="Email (Required)"><br>
+      <input type="text" name="subject" placeholder="Subject"><br>
+      <textarea name="description" placeholder="Describe your project in detail..."></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+    <script src="Scripts/form.validation.js"></script>
+    <div class="get-a-quote_contact-information">
+      <h2>Contact Information</h2>
+      <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
+        <br><br>
+        <img class="get-a-quote_location-icon" src="Images/location.png">   Elm St. 14/05 Lost City <br>
+        <img class="get-a-quote_phone-icon" src="Images/telephone.png">   03528 331 86 35 <br>
+        <img class="get-a-quote_mail-icon" src="Images/mail.png">   info@singolo.com
+      </p>
+    </div>
+
+
+
+
   </div>
-
-
-
-
-</div>
 </div>
 <!-- @FOOTER -->
 <div class="footer">
   <div class="midpage">
     <span>&#169; Copyright 2013 &#8226; by PSDchat.com<</span>
     <div class="social-media">
-        <div><img src="Images/facebook.png" alt=""></div>
-        <div><img src="Images/google+.png" alt=""></div>
-        <div><img src="Images/twitter.png" alt=""></div>
-        <div><img src="Images/linkedin.png" alt=""></div>
+      <div><img src="Images/facebook.png" alt=""></div>
+      <div><img src="Images/google+.png" alt=""></div>
+      <div><img src="Images/twitter.png" alt=""></div>
+      <div><img src="Images/linkedin.png" alt=""></div>
     </div>
   </div>
 </div>
 
-  <script src="Scripts/portofolio.js"></script>
+<script src="Scripts/portofolio.js"></script>
 
 </body>
 </html>
