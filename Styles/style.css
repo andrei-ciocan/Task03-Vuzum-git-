@@ -48,7 +48,6 @@ font-size: 24.28px;
 	line-height: 45px;
 	vertical-align: middle;
 	display: inline-block;
-	height: 9px;
 	margin: 0 auto;
 	margin-left: 500px;
 
@@ -83,41 +82,95 @@ font-size: 24.28px;
 .content-width{
 	width: 1020px;
 	margin: 0 auto;
+	
 }
 
 
+.slider-container{
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 600px;
+}
 
 .slider{
-	height: 606px;
-	background-color:#f06c64;
-}
-
-.slider .slider_iphone-vertical{
-	position: relative;
-	margin-top:60px;
-	left:85px;
-
-}
-
-.slider .slider_iphone-horizontal{
-	position: relative;
-	top:-120px;
-	left:150px;
+background-color:#f06c64;
+position: absolute;
+z-index:-100;
+width: 500%;
+height:600px;
+margin:0 auto;
+padding: 0;
+overflow: hidden;
 
 }
 
-.slider .slider_arrow-left{
+.slider.slides{
+
+  display: block;
+  width:500%;
+  height:600px;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.slider.slide {
+ 
+  float:left;
+  list-style-type:none;
+  width:100%;
+  height: 600px;
+  margin:0;
+padding: 0;
+overflow: hidden;
+}
+
+
+
+.slider .img-container{
+   margin: 0 auto;
+
+   width: 1020px;
+   height:600px;
+
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+   box-sizing:border-box;
+
+   overflow: hidden;
+}
+
+.slider ul{ width: 100%;
+      display: flex;
+      margin:0;
+      padding: 0;
+      list-style-type: none;
+      overflow: hidden;
+}
+
+.slider ul li{
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+.slider_arrow-left{
+cursor:pointer;
 display: inline-block;
 position: absolute;
 width:15px;
-top:400px;
+top:300px;
 margin-left:10%;
 }
 
-.slider .slider_arrow-right{
+.slider_arrow-right{
+cursor:pointer;
 display: inline-block;
 position: absolute;
-top:400px;
+top:300px;
 right:55%;
 margin-right:-40%;
 
@@ -127,6 +180,25 @@ margin-right:-40%;
 -ms-transform: rotate(360deg); 
 transform: rotate(180deg);
 }
+
+.slider_iphone-vertical{
+margin: 60px 100px;
+position: relative;
+
+}
+
+.slider_iphone-horizontal{
+margin: 180px 0px;
+position: relative;
+
+
+}
+
+
+
+
+
+
 
 .services{
 	padding-top: 45px;
@@ -276,6 +348,25 @@ outline-color:#f0d9da;
 
 }
 
+.get-a-quote form input[type="email"]{
+background-color: #d6564f;
+width:619px;
+height: 40px;
+border-radius:5px;
+border:1px solid transparent;
+margin-bottom: 15px;
+padding-left: 10px;
+
+font-family: Lato;
+color: #f48c8f;
+font-size: 12px;
+font-weight: 400;
+line-height: 21.56px;
+text-align: justify;
+outline-color:#f0d9da;
+
+}
+
 
 
 
@@ -295,13 +386,20 @@ font-weight: 900;
 line-height: 21.56px;
 text-align: center;
 outline:none;
-
-
 }
+
+
+.error {
+    color:#980000; 
+    font-size: 12px;
+    font-weight: 900;
+}
+
 
 .get-a-quote form input[type="submit"]:hover{
 	background-color: #bf564f;
 	color: #fff;
+	cursor: pointer;
 
 
 }
