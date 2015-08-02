@@ -18,21 +18,21 @@ header{
 }
 
 .header-menu{
-text-align: left;
-	font-size: 0;
-	line-height: 59px;
+  text-align: left;
+  font-size: 0;
+  line-height: 59px;
 }
 
 .header-menu .header-menu_logo{
-position: absolute;
-margin-left:20px;
-margin-top: 16px;
-height:20px;
-width: 0px;
-display: inline-block;
-font-family: Lato;
-color:  #ffffff;
-font-size: 24.28px;
+  position: absolute;
+  margin-left:20px;
+  margin-top: 16px;
+  height:20px;
+  width: 0px;
+  display: inline-block;
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 24.28px;
 }
 
 
@@ -74,7 +74,7 @@ font-size: 24.28px;
 }
 
 .header-menu .header-menu_logo span{
-		color:#f06c64;
+  color:#f06c64;
 }
 
 
@@ -95,14 +95,14 @@ font-size: 24.28px;
 }
 
 .slider{
-background-color:#f06c64;
-position: absolute;
-z-index:-100;
-width: 500%;
-height:600px;
-margin:0 auto;
-padding: 0;
-overflow: hidden;
+  background-color:#f06c64;
+  position: absolute;
+  z-index:-100;
+  width: 500%;
+  height:600px;
+  margin:0 auto;
+  padding: 0;
+  overflow: hidden;
 
 }
 
@@ -117,37 +117,37 @@ overflow: hidden;
 }
 
 .slider.slide {
- 
+
   float:left;
   list-style-type:none;
   width:100%;
   height: 600px;
   margin:0;
-padding: 0;
-overflow: hidden;
+  padding: 0;
+  overflow: hidden;
 }
 
 
 
 .slider .img-container{
-   margin: 0 auto;
+ margin: 0 auto;
 
-   width: 1020px;
-   height:600px;
+ width: 1020px;
+ height:600px;
 
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-   box-sizing:border-box;
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ box-sizing:border-box;
 
-   overflow: hidden;
+ overflow: hidden;
 }
 
 .slider ul{ width: 100%;
-      display: flex;
-      margin:0;
-      padding: 0;
-      list-style-type: none;
-      overflow: hidden;
+  display: flex;
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
 }
 
 .slider ul li{
@@ -158,46 +158,41 @@ overflow: hidden;
 
 
 .slider_arrow-left{
-cursor:pointer;
-display: inline-block;
-position: absolute;
-width:15px;
-top:300px;
-margin-left:10%;
+  cursor:pointer;
+  display: inline-block;
+  position: absolute;
+  width:15px;
+  top:300px;
+  margin-left:10%;
 }
 
 .slider_arrow-right{
-cursor:pointer;
-display: inline-block;
-position: absolute;
-top:300px;
-right:55%;
-margin-right:-40%;
+  cursor:pointer;
+  display: inline-block;
+  position: absolute;
+  top:300px;
+  right:55%;
+  margin-right:-40%;
 
--webkit-transform: rotate(360deg); 
--moz-transform: rotate(360deg); 
--o-transform: rotate(360deg);
--ms-transform: rotate(360deg); 
-transform: rotate(180deg);
+  -webkit-transform: rotate(360deg); 
+  -moz-transform: rotate(360deg); 
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg); 
+  transform: rotate(180deg);
 }
 
 .slider_iphone-vertical{
-margin: 60px 100px;
-position: relative;
+  margin: 60px 100px;
+  position: relative;
 
 }
 
 .slider_iphone-horizontal{
-margin: 180px 0px;
-position: relative;
+  margin: 180px 0px;
+  position: relative;
 
 
 }
-
-
-
-
-
 
 
 .services{
@@ -206,19 +201,19 @@ position: relative;
 }
 
 .services h1{
-font-family: Lato;
-color:  #666d89;
-font-size: 29.61px;
-font-weight: 900;
+  font-family: Lato;
+  color:  #666d89;
+  font-size: 29.61px;
+  font-weight: 900;
 }
 
 .services .services_description{
-font-family: Lato;
-color:  #767e9e;
-font-size: 18px;
-font-weight: 300;
-line-height: 30px;
-text-align: justify;
+  font-family: Lato;
+  color:  #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: justify;
 }
 
 
@@ -279,91 +274,91 @@ text-align: justify;
 }
 
 .services .services_textbox h2{
-font-family: Lato;
-color:  #666d89;
-font-size: 17.78px;
-font-weight: 900;
-line-height: 10px;
-	}
+  font-family: Lato;
+  color:  #666d89;
+  font-size: 17.78px;
+  font-weight: 900;
+  line-height: 10px;
+}
 
 .services .services_textbox p{
-font-family: Lato;
-color:  #767e9e;
-font-size: 12px;
-font-weight: 400;
-line-height: 21.56px;
-	}
+  font-family: Lato;
+  color:  #767e9e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+}
 
 .get-a-quote{
-background-color:  #f06c64;
-padding-top: 45px;
-padding-bottom: 45px;
+  background-color:  #f06c64;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .get-a-quote h1{
 
-font-family: Lato;
-color:  #f0d8d9;
-font-size: 29.61px;
-font-weight: 900;
-text-align: justify;
+  font-family: Lato;
+  color:  #f0d8d9;
+  font-size: 29.61px;
+  font-weight: 900;
+  text-align: justify;
 
 }
 
 .get-a-quote p{
-font-family: Lato;
-color: #f0d9da;
-font-size: 18px; 
-font-weight: 300;
-line-height: 30px; 
-text-align: justify;
-padding-bottom:20px;
+  font-family: Lato;
+  color: #f0d9da;
+  font-size: 18px; 
+  font-weight: 300;
+  line-height: 30px; 
+  text-align: justify;
+  padding-bottom:20px;
 
 }
 
 .get-a-quote form{
-position: relative;
-display:inline-block;
-width:619px;
+  position: relative;
+  display:inline-block;
+  width:619px;
 }
 
 
 
 .get-a-quote form input[type="text"]{
-background-color: #d6564f;
-width:619px;
-height: 40px;
-border-radius:5px;
-border:1px solid transparent;
-margin-bottom: 15px;
-padding-left: 10px;
+  background-color: #d6564f;
+  width:619px;
+  height: 40px;
+  border-radius:5px;
+  border:1px solid transparent;
+  margin-bottom: 15px;
+  padding-left: 10px;
 
-font-family: Lato;
-color: #f48c8f;
-font-size: 12px;
-font-weight: 400;
-line-height: 21.56px;
-text-align: justify;
-outline-color:#f0d9da;
+  font-family: Lato;
+  color: #f48c8f;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+  text-align: justify;
+  outline-color:#f0d9da;
 
 }
 
 .get-a-quote form input[type="email"]{
-background-color: #d6564f;
-width:619px;
-height: 40px;
-border-radius:5px;
-border:1px solid transparent;
-margin-bottom: 15px;
-padding-left: 10px;
+  background-color: #d6564f;
+  width:619px;
+  height: 40px;
+  border-radius:5px;
+  border:1px solid transparent;
+  margin-bottom: 15px;
+  padding-left: 10px;
 
-font-family: Lato;
-color: #f48c8f;
-font-size: 12px;
-font-weight: 400;
-line-height: 21.56px;
-text-align: justify;
-outline-color:#f0d9da;
+  font-family: Lato;
+  color: #f48c8f;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+  text-align: justify;
+  outline-color:#f0d9da;
 
 }
 
@@ -371,28 +366,28 @@ outline-color:#f0d9da;
 
 
 .get-a-quote form input[type="submit"]{
-background-color: #d6564f;
-width:16%;
+  background-color: #d6564f;
+  width:16%;
 
-height: 40px;
-border-radius:5px;
-border:1px solid transparent;
-margin-left: 40%;
+  height: 40px;
+  border-radius:5px;
+  border:1px solid transparent;
+  margin-left: 40%;
 
-font-family: Lato;
-color: #f48c8f;
-font-size: 12px;
-font-weight: 900;
-line-height: 21.56px;
-text-align: center;
-outline:none;
+  font-family: Lato;
+  color: #f48c8f;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 21.56px;
+  text-align: center;
+  outline:none;
 }
 
 
 .error {
-    color:#980000; 
-    font-size: 12px;
-    font-weight: 900;
+  color:#980000; 
+  font-size: 12px;
+  font-weight: 900;
 }
 
 
@@ -405,38 +400,38 @@ outline:none;
 }
 
 .get-a-quote form input::-webkit-input-placeholder,form textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #f48c8f;
+  color: #f48c8f;
 }
 .get-a-quote form input:-moz-placeholder,form textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   color: #f48c8f;
-   opacity:  1;
+  opacity:  1;
 }
 .get-a-quote form  input::-moz-placeholder, form textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: #f48c8f;
-   opacity:  1;
+ color: #f48c8f;
+ opacity:  1;
 }
 .get-a-quote form input:-ms-input-placeholder, form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #f48c8f;
- }
+ color: #f48c8f;
+}
 
 .get-a-quote form textarea{
-background-color: #d6564f;
-width:619px;
-height: 202px;
-border-radius:7px;
-border:1px solid transparent;
-margin-bottom: 15px;
-padding-left: 10px;
+  background-color: #d6564f;
+  width:619px;
+  height: 202px;
+  border-radius:7px;
+  border:1px solid transparent;
+  margin-bottom: 15px;
+  padding-left: 10px;
 
-font-family: Lato;
-color: #f48c8f;
-font-size: 12px;
-font-weight: 400;
-line-height: 21.56px;
-text-align: justify;
+  font-family: Lato;
+  color: #f48c8f;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px;
+  text-align: justify;
 
-resize:none;
-outline-color:#f0d9da;
+  resize:none;
+  outline-color:#f0d9da;
 }
 
 .get-a-quote .get-a-quote_contact-information{
@@ -449,21 +444,21 @@ outline-color:#f0d9da;
 }
 
 .get-a-quote .get-a-quote_contact-information h2{
-font-family: Lato;
-color: #f0d8d9;
-font-size: 17.78px; 
-font-weight: 900;
-line-height: 4.56px;
-text-align: justify;
+  font-family: Lato;
+  color: #f0d8d9;
+  font-size: 17.78px; 
+  font-weight: 900;
+  line-height: 4.56px;
+  text-align: justify;
 }
 
 .get-a-quote .get-a-quote_contact-information p{
-font-family: Lato;
-color: #f0d8d9;
-font-size: 12px;
-font-weight: 400;
-line-height: 21.56px; 
-text-align: justify;
+  font-family: Lato;
+  color: #f0d8d9;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.56px; 
+  text-align: justify;
 }
 
 .get-a-quote .get-a-quote_location-icon{
@@ -600,27 +595,103 @@ text-align: justify;
 }
 /* @RESPONSIVE */
 @media all and (max-width: 1050px) {
+
+  .services h1,p{ 
+    padding-left:2%;
+  }
+
+  .services .services_link{
+    width:32.7%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .services .services_links{
+    padding-left:3%;
+
+  }
+
   .midpage{
     width: auto;
     margin:0;
   }
-  .page_title{
-    margin: 0% 2%;
+
+  .content-width{
+    width: auto;
+    margin:0;
   }
-  .about_person{
-    margin-right: 0%;
+
+  .header-menu_container{
+    width: auto;
   }
-  .about_person:nth-child(3n+2){
-    margin-left: 2%;
+
+  .header-menu .header-menu_logo{
+    margin-left:10px;
+    margin-top: 8px;
   }
-  .portofolio_chooser{
-    margin-left: 2%;
+
+  .header-menu_container ul{
+    margin-left: 200px;
+
   }
-  .portofolio_gallery{
-    padding-left:2%; 
+
+  .header-menu_container ul li{
+    padding-left: 2px;
+    margin-left: 12px;
   }
+
+
+  .slider .img-container{
+   width: auto;
+   height:600px;
+ }
+
+
+ .get-a-quote .get-a-quote_contact-information{
+  left:10px;
+  padding-top: 300px;
+}
+
+.get-a-quote form{
+  padding-left: 2%;
+  padding-right:2%;
+  width:auto;
+}
+
+.get-a-quote h1{
+  padding-left: 2%;
+  padding-right:2%;
+
+}
+
+.get-a-quote p{
+  padding-left: 2%;
+  padding-right:2%;
+}
+
+.page_title{
+  margin: 0% 2%;
+}
+.about_person{
+  margin-right: 0%;
+}
+.about_person:nth-child(3n+2){
+  margin-left: 2%;
+}
+.portofolio_chooser{
+  margin-left: 2%;
+}
+.portofolio_gallery{
+  padding-left:2%; 
+}
 }
 @media all and (max-width: 951px) {
+
+  .header-menu_container ul{
+
+    margin-left: 100px;
+
+  }
+
   .about_person{
     margin-right: 0px;
     width: 100%;
@@ -637,7 +708,7 @@ text-align: justify;
     margin-bottom: 1%;
   }
   .about_person:nth-child(3n+2) {
-  margin-left: 0%;
+    margin-left: 0%;
   }
   .portofolio_gallery > div{
     margin-right: 4%;
@@ -646,27 +717,158 @@ text-align: justify;
     padding-left: 5px;
   }
 
-@media all and (max-width: 720px) {
-  .portofolio_gallery > div{
-    margin-right: 0%;
+  @media all and (max-width: 720px) {
+
+    .services .services_link{
+      width:48%;
+    }
+    .services .services_link h2{
+      line-height: 20px;
+    }
+    .services .services_link{
+      padding-bottom: 15px;
+      padding-bottom: 15px;
+    }
+
+    .header-menu_container ul{
+      margin-top: 20px;
+      margin-left: 0px;
+
+    }
+
+    .services h1,p{ 
+      padding-left:2%;}
+
+      .get-a-quote{
+        left:20px;
+      }
+
+      .get-a-quote form input[type="text"]{
+        width:400px;
+      }
+
+      .get-a-quote form input[type="email"]{
+        width:400px;
+      }
+
+      .get-a-quote form textarea{
+        width:400px;
+      }
+
+      .portofolio_gallery > div{
+        margin-right: 0%;
+      }
+    }
+    @media all and (max-width: 580px) {
+
+      services .services_link{
+        width:49%;
+      }
+      .header-menu_container ul{
+        margin-top: 20px;
+        margin-left: 0px;
+
+      }
+
+      .portofolio_gallery > div{
+        margin-right:7%;
+      }
+    }
+    @media all and (max-width: 480px) {
+      .services .services_link{
+        width:90%;
+      }
+      .header-menu .header-menu_logo{
+        margin-top: -5px;
+        font-size: 18px;
+      }
+
+      .get-a-quote .get-a-quote_contact-information{
+        left:10px;
+        width:80%;
+      }
+
+      .get-a-quote form input[type="text"]{
+        width:300px;
+      }
+
+      .get-a-quote form input[type="email"]{
+        width:300px;
+      }
+
+      .get-a-quote form textarea{
+        width:300px;
+      }
+
+      .header-menu_container ul{
+        margin-top: 10px;
+        line-height: 20px;
+        width: auto;
+        margin-left: -50px;
+
+      }
+      .portofolio_gallery > div{
+        margin-right:0%;
+      }
+    }
+    @media all and (max-width: 380px) {
+     .header-menu_container ul{
+      margin-top: -20px;
+      margin-left: -100px;
+
+    }
+
+    .header-menu .header-menu_logo{
+      margin-top: -5px;
+      font-size: 18px;
+    }
+
+    .get-a-quote .get-a-quote_contact-information{
+      left:8px;
+      width:80%;
+    }
+
+    .get-a-quote form input[type="text"]{
+      width:250px;
+    }
+
+    .get-a-quote form input[type="email"]{
+      width:250px;
+    }
+
+    .get-a-quote form input[type="submit"]{
+      width:50px;
+    }
+
+    .get-a-quote form textarea{
+      width:250px;
+    }
+
+    .header-menu_container ul{
+      margin-top: 20px;
+      line-height: 20px;
+      width: auto;
+      margin-left: -50px;
+
+    }
+
+    .portofolio_gallery{
+      text-align: center;
+    }
   }
-}
-@media all and (max-width: 580px) {
-  .portofolio_gallery > div{
-    margin-right:7%;
-  }
-}
-@media all and (max-width: 480px) {
-  .portofolio_gallery > div{
-    margin-right:0%;
-  }
-}
-@media all and (max-width: 380px) {
-  .portofolio_gallery{
-    text-align: center;
-  }
-}
-@media all and (max-width: 290px) {
-  .portofolio_chooser > div {
-    margin-right: 1%;
-}
+  @media all and (max-width: 290px) {
+    .get-a-quote form input[type="text"]{
+      width:200px;
+    }
+
+    .get-a-quote form input[type="email"]{
+      width:200px;
+    }
+
+    .get-a-quote form textarea{
+      width:200px;
+    }
+
+    .portofolio_chooser > div {
+      margin-right: 1%;
+    }
