@@ -530,6 +530,19 @@ header{
 .portofolio_gallery > div:nth-child(4n+1){
   padding-left: 0px;
 }
+
+.portofolio_zoom_in{
+  padding-left:5%;
+  padding-right: 5%;
+}
+
+.portofolio_zoomed_image{
+  margin: 0 auto;
+width: 90%;
+height:90%;
+padding-top: 40px;
+padding-bottom: 80px;
+}
 /* @ABOUT US */
 .about{
   padding: 70px 0px;
@@ -593,11 +606,23 @@ header{
   margin: 0;
   float: right;
 }
+
+@media all and (max-width: 1100px) {
+
+
+  .get-a-quote .get-a-quote_contact-information{
+  width:33%;
+}
+}
+
+
 /* @RESPONSIVE */
 @media all and (max-width: 1050px) {
 
+
   .services h1,p{ 
-    padding-left:2%;
+    padding-left:4%;
+     padding-right:4%;
   }
 
   .services .services_link{
@@ -647,6 +672,7 @@ header{
 
 
  .get-a-quote .get-a-quote_contact-information{
+  width:90%;
   left:10px;
   padding-top: 300px;
 }
@@ -658,18 +684,35 @@ header{
 }
 
 .get-a-quote h1{
-  padding-left: 2%;
-  padding-right:2%;
+  padding-left: 4%;
+  padding-right:4%;
 
 }
 
 .get-a-quote p{
-  padding-left: 2%;
-  padding-right:2%;
+  padding-left: 4%;
+  padding-right:4%;
 }
 
+.get-a-quote .get-a-quote_contact-information{
+     padding-left: 4%;
+  padding-right:4%;
+    }
+.get-a-quote .get-a-quote_contact-information p{
+     padding-left: 0%;
+      padding-right:4%;
+    }
+
+    .get-a-quote .signupForm{
+     padding-left: 4%;
+      padding-right:4%;
+    }
 .page_title{
   margin: 0% 2%;
+  padding-left:4%;
+}
+.page_title p{
+  padding-left:0%;
 }
 .about_person{
   margin-right: 0%;
@@ -678,11 +721,13 @@ header{
   margin-left: 2%;
 }
 .portofolio_chooser{
-  margin-left: 2%;
+  margin-left: 6%;
+
 }
 .portofolio_gallery{
   padding-left:2%; 
 }
+
 }
 @media all and (max-width: 951px) {
 
@@ -736,8 +781,6 @@ header{
 
     }
 
-    .services h1,p{ 
-      padding-left:2%;}
 
       .get-a-quote{
         left:20px;
@@ -761,7 +804,7 @@ header{
     }
     @media all and (max-width: 580px) {
 
-      services .services_link{
+      .services .services_link{
         width:49%;
       }
       .header-menu_container ul{
@@ -773,6 +816,7 @@ header{
       .portofolio_gallery > div{
         margin-right:7%;
       }
+
     }
     @media all and (max-width: 480px) {
       .services .services_link{
@@ -906,15 +950,15 @@ visibility: hidden;
   }
   @media all and (max-width: 290px) {
     .get-a-quote form input[type="text"]{
-      width:200px;
+      width:90%;
     }
 
     .get-a-quote form input[type="email"]{
-      width:200px;
+      width:90%;
     }
 
     .get-a-quote form textarea{
-      width:200px;
+      width:90%;
     }
 
     .portofolio_chooser > div {
